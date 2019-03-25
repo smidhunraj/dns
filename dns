@@ -1,0 +1,49 @@
+dig -t ptr google.com
+dig google.com
+dig -4 216.58.196.174
+dig -x google.com
+dig -t A google.com
+dig -t PTR google.com
+dig -t MX google.com
+dig +qr www.isc.org any -x 127.0.0.1 isc.org ns +noqr
+0- 1-0-8-9-10-
+fine - usage error-could not open - no reply from server-internal error
+resolve multiple hosts
+vi filename
+127.0.0.1
+google.com
+dig -f filename{all domain name in filename }
+i----------------------------------------------------------------
+Red hat dig command 
+dig command is used to get a record
+dig wwww.google.com
+ip address of google.com
+answer section authority section header version and the global option we have used 
+dig -t MX www.google.com
+Answer section 
+dig google.com +nocomments +noauthority +noadditional +nostats
+dig +noall +answer google.com
+ns record
+dig -t MX google.com
+dig -t MX www.redhat.com
+dig -t NS www.google.com
+dig -t NS www.redhat.com
+dig -t ANY google.com +noall +answer
+dig google.com ANY +noall +answer
+dig www.google.com +short
+dig @ns1.redhat.com www.redhat.com
+dig @8.8.8.8 +trace www.redhat.com
+dig google.co MX +noall +answer redhat.com NS +noall +answer
+{Write a hidden file}vi .digrc
++noall +answer
+dig www.google.com
+
+
+
+
+
+
+
+
+
+
